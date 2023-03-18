@@ -1,13 +1,16 @@
 body {
     font-family: "Roboto", sans-serif;
-    background: #cad1dc;
+    background: #36517d;
 }
 
-.button {
-    background-color: "green";
+.highlight {
+    color: blue;
 }
 
+.single-offer {
+    width: "370" height "294";
+}
 
-.single-offer 
-{width="370"
-height="294"}
+.example-offer-name {
+    color: #36517d;
+}
