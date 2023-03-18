@@ -3,6 +3,14 @@ body {
     background: #cad1dc;
 }
 
+.button:hover,
+.button:focus{
+    cursor: pointer;
+    color:blue;
+}
+
+
+
 .single-offer 
 {width="370"
 height="294"}
