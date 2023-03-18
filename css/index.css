@@ -3,15 +3,8 @@ body {
     background: #cad1dc;
 }
 
-.filter .selector:hover,
-.selector:focus{
-    cursor: pointer;
-    color:blue;
-}
-
-.contact:hover,
-.contact:focus {
-    color: blue;
+.button {
+    background-color: "green";
 }
 
 
