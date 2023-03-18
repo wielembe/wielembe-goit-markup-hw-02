@@ -3,12 +3,16 @@ body {
     background: #cad1dc;
 }
 
-.button:hover,
-.button:focus{
+.filter .selector:hover,
+.selector:focus{
     cursor: pointer;
     color:blue;
 }
 
+.contact:hover,
+.contact:focus {
+    color: blue;
+}
 
 
 .single-offer 
