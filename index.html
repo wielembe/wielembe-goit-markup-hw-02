@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="./css/styles.css" />
         <title>corporate page</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,8 +31,16 @@
     </header>
 
     <main>
-        <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button type="button">Request our service</button>
+        <div class="banner">
+            <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+            <button
+                class="big-button"
+                type="button"
+                onclick="window.location.href='mailto:info@devstutio.com';"
+            >
+                Request our service
+            </button>
+        </div>
 
         <div class="highlights">
             <ul>
@@ -72,31 +81,19 @@
         </div>
         <div class="what-we-do">
             <h2>What we do</h2>
-            <!--potential links to be added to the pictures next. List style 'none'should be added in CSS to remove bullets-->
+            <!--potential links to be added to the pictures next. I removed width and height parameters below as they are defined in css-->
             <ul>
                 <li>
                     <img
                         src="images/box1.jpg"
                         alt="person clicking on the keyboard"
-                        width="370"
-                        height="294"
                     />
                 </li>
                 <li>
-                    <img
-                        src="images/box2.jpg"
-                        alt="person using telephone"
-                        width="370"
-                        height="294"
-                    />
+                    <img src="images/box2.jpg" alt="person using telephone" />
                 </li>
                 <li>
-                    <img
-                        src="images/box3.jpg"
-                        alt="person using tablet"
-                        width="370"
-                        height="294"
-                    />
+                    <img src="images/box3.jpg" alt="person using tablet" />
                 </li>
             </ul>
         </div>
@@ -106,40 +103,36 @@
             <ul>
                 <li>
                     <img
+                        class="person-pic"
                         src="images/img4.jpg"
                         alt="Christopher Walker photo"
-                        width="270"
-                        height="260"
                     />
                     <span class="name">Christopher Walker</span>
                     <span class="function">Product Designer</span>
                 </li>
                 <li>
                     <img
+                        class="person-pic"
                         src="images/img1.jpg"
                         alt="Kylie Evans photo"
-                        width="270"
-                        height="260"
                     />
                     <span class="name">Kylie Evans</span>
                     <span class="function">Frontend Developer</span>
                 </li>
                 <li>
                     <img
+                        class="person-pic"
                         src="images/img2.jpg"
                         alt="Ryan Harris photo"
-                        width="270"
-                        height="260"
                     />
                     <span class="name">Ryan Harris</span>
                     <span class="function">Marketing</span>
                 </li>
                 <li>
                     <img
+                        class="person-pic"
                         src="images/img3.jpg"
                         alt="Tyler Moore photo"
-                        width="270"
-                        height="260"
                     />
                     <span class="name">Tyler Moore</span>
                     <span class="function">UI Designer</span>
